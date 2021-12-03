@@ -1,43 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
-
-
 @font-face
 {
-	font-display: swap;
-	font-family : Raleway;
-	font-style  : normal;
-	font-weight : normal;
-	src         : url( assets\fonts\raleway.zip );
+	font-family : "Raleway";
+	src         : url( "assets/fonts/Raleway-Regular.ttf" ) format ("truetype");
 }
 
 
 @font-face
 {
 	font-display: swap;
-	font-family : Raleway;
+	font-family : "Raleway Bold";
 	font-style  : normal;
 	font-weight : bold;
-	src         : url( assets\fonts\raleway.zip );
+	src         : url( assets\fonts\Raleway-Bold.ttf );
 }
+
 
 
 @font-face
 {
 	font-display: swap;
-	font-family : Raleway;
-	font-style  : normal;
-	font-weight : 500;
-	src         : url( assets\fonts\raleway.zip );
-}
-
-
-@font-face
-{
-	font-display: swap;
-	font-family : Raleway;
+	font-family : "Raleway Extra Bold";
 	font-style  : normal;
 	font-weight : 900;
-	src         : url( assets\fonts\raleway.zip );
+	src         : url( assets\fonts\Raleway-ExtraBold.ttf );
 }
 
 
@@ -57,9 +42,13 @@
 body
 {
 	box-sizing : border-box;
-	font-family: Raleway;
+	font-family: "Raleway";
 	margin     : 0;
 }
+.intro h1 {
+	font-family: "Raleway";
+}
+	
 
 
 a
@@ -75,3 +64,4 @@ a
 	margin     : 0;
 	font-weight: bold;
 }
+
