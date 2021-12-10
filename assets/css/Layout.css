@@ -38,6 +38,18 @@
 	box-sizing: inherit;
 }
 
+.header
+{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+nav
+{ 
+	display: flex;
+	align-items: center;
+	margin: ;
+}
 
 body
 {
@@ -45,12 +57,10 @@ body
 	font-family: "Raleway";
 	margin     : 0;
 }
-.intro h1 {
+.intro h1
+{
 	font-family: "Raleway";
-}
-	
-
-
+}	
 a
 {
 	text-decoration: none;
@@ -65,3 +75,7 @@ a
 	font-weight: bold;
 }
 
+
+.container {
+	max-width: 1440px;
+}
