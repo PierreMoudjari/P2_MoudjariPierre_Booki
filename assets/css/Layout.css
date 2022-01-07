@@ -43,12 +43,14 @@
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: nowrap;
+	align-items: center;
 }
+
 nav
 { 
 	display: flex;
 	align-items: center;
-	margin: ;
+	margin: 14px; 
 }
 
 body
@@ -61,21 +63,39 @@ body
 {
 	font-family: "Raleway";
 }	
-a
-{
+a {
 	text-decoration: none;
 }
 
-
-  h1
-, h2
-{
+h1, h2 {
 	font-size  : 1.4em;
 	margin     : 0;
 	font-weight: bold;
 }
 
+#search-box {
 
+    border-top-style: solid;
+    border-top-width: 2px;
+    padding: 10px;
+	
+
+}
+::placeholder {
+
+	font-weight: bold;
+	font-size: 1em;
+	opacity: 1;
+}
 .container {
 	max-width: 1440px;
+	padding: 1em;
+	box-sizing: content-box;
 }
+
+.header-nav_link {
+    padding: 15px 20px;
+    text-transform: capitalize;
+}
+
+
